@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="logo">
+          <h1>My Portfolio</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-section" id="about">
+        <div class="about-content container">
+          <div class="about-text">
+            <h2>Hi, I'm Salman.</h2>
+            <p>
+              I'm a Full Stack Developer with a passion for building robust and
+              scalable web applications.
+            </p>
+            <p>
+              I'm passionate about creating seamless digital experiences through
+              both front-end and back-end technologies. I love solving complex
+              problems and developing solutions that make people's lives easier
+              and more efficient. Whether it's building dynamic user interfaces
+              or optimizing server-side performance, I strive to deliver
+              high-quality, functional, and scalable software. You can find me
+              on
+              <a
+                href="https://www.linkedin.com/in/mehedihasan-salman"
+                target="_blank"
+                >LinkedIn</a
+              >, download my <a href="resume.pdf" download>resume</a>, or shoot
+              me an <a href="mailto:email@example.com">email</a>.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="./salman.jpg" alt="Salman's Photo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section education-section">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="education-content">
+            <div class="education-card">
+              <h3>BSc in Computer Science & Engineering</h3>
+              <p>Daffodil International University (2021-2025)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <h2>Work Experience</h2>
+          <div class="experience-content">
+            <div class="experience-card">
+              <h3>Full Stack Developer</h3>
+              <p>Gruham.ai (2023 - Present)</p>
+              <p>
+                Responsible for developing and maintaining web applications
+                using modern front-end and back-end technologies. Worked closely
+                with the product team to deliver high-quality features and
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">NextJs</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Git</div>
+            <div class="skill">Python</div>
+            <div class="skill">FastAPI</div>
+            <div class="skill">JAVA</div>
+            <div class="skill">AWS</div>
+            <div class="skill">Azure</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">SQL</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2>Contact Me</h2>
+
+          <form id="contactForm">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Mehedi Hasan Salman</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
